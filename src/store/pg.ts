@@ -8,7 +8,7 @@ const db = createConnectionPool(
 );
 
 
- db.dispose();
+ //db.dispose();
 ///console.log(DATABASE_URL)
 //console.log(process.env.DATABASE_URL)
 export { db, sql };
